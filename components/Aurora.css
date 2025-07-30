@@ -1,0 +1,9 @@
+.aurora-container {
+  position: absolute; /* sits behind your UI */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60vh; /* try 60vh, 70vh, or 100vh for full */
+  pointer-events: none; /* don't block clicks */
+  z-index: 0;
+}
