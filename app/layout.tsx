@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ClipCast",
   description: "Quickly share text/files via QR",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
